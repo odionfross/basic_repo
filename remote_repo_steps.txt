@@ -1,0 +1,34 @@
+Author: Odion Fross
+Assignment IV: Remote Repo
+
+Create a new repo on GitHub and call it basic_repo
+Right click on account icon -> Your repositories -> New
+
+Create a local repository also called basic_repo
+$ mkdir basic_repo
+
+Create some files inside your local repo and add some content on them
+$ touch Scratch Paper.pdf
+$ touch blank pdf.pdf
+$ touch bootstrap.html
+$ touch document_object_model.html
+$ touch loop-algo.js
+$ touch loop_predict
+$ touch style.css
+
+Add, commit, and push these changes to GitHub
+$ git init
+$ git add .
+$ git commit -m "assignment iv: remote repo"
+$ git remote add origin https://github.com/odionfross/basic_repo.git
+$ git push -u origin master
+#enter git username and password
+
+Make some more changes to the local copy of your file and push them to GitHub
+$ open style.css
+$ git status
+$ git add style.css
+$ git commit -m "changed style.css"
+$ git push -u origin master
+
+Go to your GitHub account and see your new repo and the changes you've made
